@@ -5,4 +5,4 @@ function call<T extends [unknown, string, ...unknown[]], R>(
   return f(...args)
 }
 
-call((a, b, c) => { return a + b + c }, 1, 'a', 3)
+call((a, b, c) => { return a + b + c }, 1, '', 3)

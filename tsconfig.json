@@ -1,0 +1,13 @@
+{
+  "compilerOption" {
+    "lib": ["es2015"],
+    "module": "esnext",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2015"
+  },
+  "include": [
+    "src"
+  ]
+}
