@@ -57,8 +57,8 @@ class King extends Piece {
     return distance.rank < 2 && distance.file < 2
   }
 }
-class Queen extends Piece {}
-class Bishop extends Piece {}
-class Knight extends Piece {}
-class Rook extends Piece {}
-class Pawn extends Piece {}
+class Queen extends Piece { canMoveTo() { return true } }
+class Bishop extends Piece { canMoveTo() { return true } }
+class Knight extends Piece { canMoveTo() { return true } }
+class Rook extends Piece { canMoveTo() { return true } }
+class Pawn extends Piece { canMoveTo() { return true } }

@@ -7,7 +7,7 @@ class RequestBuilder {
     return new RequestBuilderWithMethod().setMethod(method).setData(this)
   }
 
-  setData(data: object): this {
+  setData(data: object | null): this {
     this.data = data
     return this
   }
